@@ -7,7 +7,7 @@
         &laquo; <a href="{{ route('posts.index')}}">Back</a>
     </div>
     <h1>{{ $post->title }}</h1>
-    <p>{{$post->body}}</p>
+    <p>{!! nl2br($post->body) !!}</p>
     </ul>
 </x-layout>
 
