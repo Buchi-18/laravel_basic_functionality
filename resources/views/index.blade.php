@@ -3,7 +3,10 @@
         My BBS
     </x-slot>
 
-    <h1>Title</h1>
+    <h1>
+        <span>My BBS</span>
+        <a href="{{ route('posts.create') }}">[Add]</a>
+    </h1>
     <ul>
         @forelse ($posts as $index => $post)
         <li>
