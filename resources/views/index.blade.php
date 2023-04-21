@@ -7,7 +7,7 @@
     <ul>
         @forelse ($posts as $index => $post)
         <li>
-            <a href="{{ route('posts.show', $index) }}"> {{ $post }} </a>
+            <a href="{{ route('posts.show', $post) }}"> {{ $post->title }} </a>
         </li>
         @empty
         <li> No posts yet! </li>
