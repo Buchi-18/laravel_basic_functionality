@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 h1 {
     border-bottom: 1px solid #000;
     font-size: 18px;
@@ -55,8 +59,18 @@ button {
     text-align: right;
 }
 
-.error{
-    color:red;
+.error {
+    color: red;
     font-size: 14px;
     margin-top: 8px;
+}
+
+.delete-btn {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: normal;
+    color: #15c;
+    cursor: pointer;
+    vertical-align: 1px;
 }
